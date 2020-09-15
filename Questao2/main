@@ -1,0 +1,14 @@
+package br.com.univas;
+
+public class Questao2 {
+
+	public static void main(String[] args) {
+		
+		String s = "Univas";
+		String invertida = ""; 
+		for (int i = s.length()-1; i >= 0; i--) 
+		invertida += s.charAt(i);
+		System.out.println(invertida);
+	}
+
+}
