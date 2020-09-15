@@ -1,0 +1,24 @@
+package br.com.univas;
+
+	import java.util.Scanner;
+	
+	public class Questao3 {	
+		public static void main(String[] args) {
+			
+			Scanner sc = new Scanner (System.in);
+			String aux = sc.nextLine();
+			
+			int tam = aux.length();
+			String palavra = "";
+			char x;
+			
+			for (int i = tam; i > 0 ; i--) {
+				
+				x = aux.charAt(i-1);
+				System.out.println(x);
+				palavra = palavra + x;			
+			}
+			sc.close();
+		}
+
+}
